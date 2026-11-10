@@ -25,7 +25,3 @@ document.querySelectorAll('.nav a').forEach(a => a.addEventListener('click', () 
   document.querySelector('.nav').classList.remove('open');
   menu.setAttribute('aria-expanded','false');
 }));
-$('newsletterForm').addEventListener('submit', (e) => {
-  e.preventDefault();
-  $('formMessage').textContent = 'Thanks! This demo form is not connected yet. Add a newsletter provider before collecting subscribers.';
-});

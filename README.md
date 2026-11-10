@@ -1,43 +1,27 @@
-# PesoWise — free money tips website
+# PesoWise website update
 
-A responsive static website starter for a Philippine personal-finance and side-hustle blog.
+## Files
+- `index.html` — homepage
+- `styles.css` — shared styles
+- `script.js` — savings calculator and mobile navigation
+- `about.html` — About page
+- `privacy.html` — Privacy Policy
+- `contact.html` — Contact page
+- `disclaimer.html` — educational and affiliate disclaimer
 
-## Included
-- Responsive homepage and mobile navigation
-- Starter money guides and side-hustle content
-- Interactive savings goal calculator (no API or sign-up)
-- Newsletter form placeholder
-- Affiliate/ad disclosure and general-information disclaimer
-- No paid theme, hosting, database, or build tools required
+## Publish on GitHub Pages
+1. Download and extract this ZIP.
+2. Open the `jlexabad-cloud/pesowise` GitHub repository.
+3. Upload all seven files to the repository root, replacing the existing `index.html`, `styles.css`, and `script.js`.
+4. Commit the changes to the `main` branch.
+5. Wait for GitHub Pages to deploy, then test the homepage and each new page.
 
-## Preview locally
-Open `index.html` in a browser. For best results, use a local static server or publish the folder using the steps below.
+## Before applying for AdSense
+- Review the Privacy Policy and all pages for accuracy.
+- The Contact page currently uses the repository's GitHub Issues page as a feedback channel. Confirm that you want to use this public method, or replace it with a monitored email address.
+- If you add a newsletter provider, update the Privacy Policy to describe the provider and what subscriber data is collected.
+- When Google AdSense is actually enabled, update the Privacy Policy to reflect the real ad technologies and vendors, and follow Google's current consent and publisher requirements.
+- Do not add AdSense ad code until Google provides the code for your site.
+- Add substantial, original, useful articles and check all facts, links, and disclosures before submitting for review.
 
-## Publish for free with GitHub Pages
-1. Create or sign in to a GitHub account.
-2. Create a **public** repository named `pesowise` (or another name).
-3. Upload `index.html`, `styles.css`, `script.js`, and this README to the repository root.
-4. Open **Settings → Pages**.
-5. Under Build and deployment, choose **Deploy from a branch**, select `main` and `/ (root)`, then Save.
-6. Wait for GitHub Pages to publish. Your free address will look like `https://YOUR-USERNAME.github.io/pesowise/`.
-
-Alternative: Netlify or Cloudflare Pages can also host static files on a free tier. Check their current terms and limits.
-
-## Before monetizing — important setup
-This starter is a functioning website, but monetization accounts and services are not connected. Replace placeholders and add real content before applying:
-- **Ads:** Apply to Google AdSense or another publisher when your site meets that provider's current content, traffic, and policy requirements. Approval and earnings are not guaranteed. Add the provider's approved code only after approval.
-- **Affiliate marketing:** Apply to programs that accept publishers in your country (for example, local marketplace or global affiliate programs). Add clearly labeled links only after approval. Never invent endorsements or claim personal experience you do not have.
-- **Digital products:** Create original budget sheets, planners, or guides and sell via a platform that supports your country and payout method. Replace links with your own product checkout pages.
-- **Email newsletter:** Connect a service such as Buttondown, MailerLite, or another provider. The current form is intentionally a demo and does not collect or store email addresses.
-- **Sponsored posts:** Publish a contact page and media kit once you have an audience. Clearly disclose sponsorships.
-
-## Recommended launch checklist
-- Replace the contact email `hello@yourdomain.com` with an address you control.
-- Add an About page, Privacy Policy, and Contact page appropriate to your actual setup.
-- Fact-check financial information and link to official sources where relevant.
-- Publish useful, original articles consistently. Do not copy other publishers' work.
-- Add analytics only after reviewing the relevant privacy requirements.
-- Keep affiliate disclosures visible near affiliate links and ads clearly distinguishable from editorial content.
-
-## Disclaimer
-This site is educational content, not personalized financial, tax, legal, or investment advice. Confirm current rates, fees, eligibility, and terms with official providers. Do not promise guaranteed returns or income.
+This update improves site structure and transparency but does not guarantee AdSense approval.
